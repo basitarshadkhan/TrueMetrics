@@ -9,11 +9,7 @@ const MyStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="Home"
-          component={Home}
-          options={{ header: () => null }}
-        />
+        <Stack.Screen name="Navigations" component={Home} />
       </Stack.Navigator>
     </NavigationContainer>
   );
